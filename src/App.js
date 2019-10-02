@@ -2,12 +2,16 @@ import React from "react";
 import "./App.css";
 import MouseTracker from "./components/MouseTracker";
 import KeyTracker from "./components/KeyTracker";
+import PlaceholderAPI from "./pages/PlaceholderAPI";
 
 function App() {
   return (
     <div className="App">
-      <MouseTracker />
-      <KeyTracker />
+      {/* Part 1 */}
+      {/* <MouseTracker />
+      <KeyTracker /> */}
+
+      <PlaceholderAPI />
     </div>
   );
 }

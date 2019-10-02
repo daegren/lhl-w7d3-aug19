@@ -1,0 +1,12 @@
+.placeholder-api {
+  display: flex;
+}
+
+.placeholder-api > ul {
+  list-style: none;
+}
+
+.placeholder-api .album-list,
+.placeholder-api .photo-list {
+  max-width: 50vw;
+}
